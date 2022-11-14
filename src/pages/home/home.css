@@ -1,0 +1,51 @@
+/* 
+CSS ist global!!!
+
+*/
+
+.home {
+    background-color: rgb(255, 166, 0);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* 
+mittig setzen: 
+1. display flex 
+=> ailgn-items center für horizontale mitte
+=> justify content center für verticle mitte 
+
+2. margin auto
+=> width setzten!!!
+=> margin 0 auto 
+*/
+.home .container {
+    /*  padding / margin auf verschiedene arten setzen:
+        1. padding: 10px => 10px in alle richtungen
+        2. padding: 10px 5px => 10px XRichtung und 5px in YRichtung
+        2. padding: 10px 5px 2px 0 => im Uhrzeigersinn oben anfangend
+    */
+    width: fit-content;
+    margin: 100px auto; 
+    text-align: center;
+}
+
+
+/* 
+CSS-Selectoren:
+1. .<className> {...} mit klassennamen
+2. .<className> .<className> {...} pfad aus klassennamen 
+3. <html attribut> {...} mit tag   
+4. <html attribut> <html attribute> {...} pfad aus html tags   
+5. #<id> {...} mit id
+6. #<id> #<id> {...} pfad aus ids
+7. .<className>.<className> {...} beide klassen in einem component
+*/
+
+.home section .container .headline {
+    color: red;
+    -webkit-text-stroke: 1px green;
+    font-weight: 700;
+}

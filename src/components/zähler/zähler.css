@@ -1,0 +1,14 @@
+.zähler {
+    display: flex;
+    align-items: center;
+}
+.btn {
+    width: 40px;
+    height: 40px;
+}
+.nummer {
+    font-size: 40px;
+    color: green;
+    font-weight: 900;
+    margin: 0 50px;
+}
