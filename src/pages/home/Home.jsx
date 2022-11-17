@@ -13,6 +13,8 @@ export default function Home() {
 
     // frage ? tue wenn wahr : tue wenn nicht wahr
 
+    //arrays objekte und map
+
     return (
     <main className='home'>
         <section>
