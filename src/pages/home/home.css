@@ -43,9 +43,15 @@ CSS-Selectoren:
 6. #<id> #<id> {...} pfad aus ids
 7. .<className>.<className> {...} beide klassen in einem component
 */
+.home section .container .red {
+    color: red;
+}
+.blue {
+    color: blue;
+}
 
 .home section .container .headline {
-    color: red;
     -webkit-text-stroke: 1px green;
     font-weight: 700;
 }
+
